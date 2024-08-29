@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Galvez Portfolio</title>
+    
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+     <!-- Logo Icon  -->
+     <link rel="icon" href="images/blacklogo.png">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo"><img src="images/k-logo.png" width="50px" height="50px" alt=""></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,</h3>
+            <h1> I'm Kim Galvez</h1>
+            <h3>a <span id="animated-text">Web Developer</span></h3>
+            
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/galvez.kim.3" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.tiktok.com/@qwertzxc1419?lang=en" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://www.instagram.com/kimgalvezz/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/kim-galvez-9305b0269/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="CV/My CV .pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/kimgalvez.png" alt="Kim Galvez Profile">
+        </div>
+    </section>
+
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <h2 class="heading">About <span>Me</span></h2>
+            <img src="images/kim.png" alt="Kim Galvez">
+        </div>
+        <div class="about-content">
+           
+            <h3 class="heading-2">Fresh Graduate | <span>Computer Engineering</span></h3>
+            <p>Hello! I am Kim Galvez an aspiring Web Developer, Software Engineer. I love and enjoy coding to much. And the beauty of a website is not just in its design but in how it functions for its users.</p>
+
+            <!-- Contact Information Section -->
+            <div class="contact-info">
+                <h3 class="heading-3">Contact Information</h3>
+                <p><strong>Email:</strong> <a href="mailto:galvezkim14@gmail.com">galvezkim14@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+639360422382">+639360422382</a></p>
+                <p><strong>Location:</strong> Mexico, Pampanga</p>
+            </div>
+
+            <p>A dedicated and enthusiastic Computer Engineering graduate seeking a position as a Web Developer. Possess strong knowledge in web development with a focus on creating efficient and user-friendly interfaces. Eager to contribute to a dynamic team while continuously learning and growing in the field.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development is a broad field that encompasses creating and maintaining websites and web applications. It combines design, programming, and technology skills.</p>
+                <a  class="btn" onclick="openModal('web-dev')">View Sample</a>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Creating Visual concepts such as advertisements, banner, logo, mockup and other design for digital printing.</p>
+                <a  class="btn" onclick="openModal('graphic-design')">View Sample</a>
+            </div>
+    
+            <div class="services-box">
+                <i class='bx bx-git-repo-forked'></i>
+                <h3>IT Support</h3>
+                <p>Configured, formatted and maintained PC Desktop and laptop and other devices. Diagnosed and resolved hardware and software issues.</p>
+                <a class="btn" onclick="openModal('it-support')">View Sample</a>
+            </div>
+        </div>
+
+         <!-- Modal for Web Development -->
+        <div id="web-dev-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('web-dev')">&times;</span>
+                <h2>Web Responsive</h2>
+                <div class="modal-body">
+                    <img src="images/Project-1.png" alt="Web Development Sample">
+                    <img src="images/Project-2.png" alt="Web Development Sample">
+                    <img src="images/Project-3.png" alt="Web Development Sample">
+                    <img src="images/Project-4.png" alt="Web Development Sample">
+                    <img src="images/Project-5.png" alt="Web Development Sample">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal for Graphic Design -->
+        <div id="graphic-design-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('graphic-design')">&times;</span>
+                <h2>Logo & Mockup</h2>
+                <div class="modal-body">
+                    <img src="images/Pekkabu Logo.png" alt="Graphic Design Sample">
+                    <img src="images/KA LOGO.jpg" alt="Graphic Design Sample">
+                    <img src="images/Klothing Avenue.png" alt="Graphic Design Sample">
+                    <img src="images/P-1.jpg" alt="Graphic Design Sample">
+                    <img src="images/DOUBLE 4.jpg" alt="Graphic Design Sample">
+                    <img src="images/P-13.jpg" alt="Graphic Design Sample">
+                    <img src="images/P-11.jpg" alt="Graphic Design Sample">
+                
+                    <br><br><br><br><br><br><br>
+                    <h2>Youtube Thumnail </h2>
+                    <div class="modal-body">
+                        <img src="images/1.png" alt="Graphic Design Sample"> 
+                        <img src="images/2.png" alt="Graphic Design Sample"> 
+                        <img src="images/3.png" alt="Graphic Design Sample"> 
+                        <img src="images/4.png" alt="Graphic Design Sample"> 
+                        <img src="images/5.png" alt="Graphic Design Sample"> 
+                        <img src="images/6.png" alt="Graphic Design Sample"> 
+                        <img src="images/7.png" alt="Graphic Design Sample"> 
+                        <img src="images/8.png" alt="Graphic Design Sample"> 
+                        <img src="images/16.png" alt="Graphic Design Sample"> 
+                        <img src="images/10.png" alt="Graphic Design Sample"> 
+                        <img src="images/11.png" alt="Graphic Design Sample"> 
+                        <img src="images/12.png" alt="Graphic Design Sample"> 
+                        <img src="images/13.png" alt="Graphic Design Sample"> 
+                        <img src="images/14.png" alt="Graphic Design Sample"> 
+                        <img src="images/18.png" alt="Graphic Design Sample"> 
+                        <img src="images/17.png" alt="Graphic Design Sample"> 
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        
+        <!-- Modal for IT Support -->
+        <div id="it-support-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('it-support')">&times;</span>
+                <h2>IT Support</h2>
+                <div class="modal-body">
+                    <img src="images/IT.jpg" alt="IT Support Sample">
+                    <img src="images/IT2.jpg" alt="IT Support Sample">
+                   
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+   
+    
+    
+    
+    
+    
+
+    <!-- Portfolio Section Design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Sample <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/Project-1.png" alt="Project 1">
+                <div class="portfolio-layer">
+                    <h4>Klothing Avenue Ecommerce</h4>
+                    <p>I made this website of ours to further hone my talent in creating a website and also so that I can create my own ecommerce website for those who want to do business without a website.</p>
+                    <ul>
+                        <li class="p-2">Php</li>
+                        <li class="p-3">javascript</li>
+                        <li class="p-3">Mysql</li>
+                        <li class="p-1">Css</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Project-2.png" alt="Project 2">
+                <div class="portfolio-layer">
+                    <h4>Mini Portfolio</h4>
+                    <p>I made my mini portfolio using html css javascript so that I can be better and be ready when I work.</p>
+                    <ul>
+                        <li class="p-2">Html</li>
+                        <li class="p-3">Css</li>
+                        <li class="p-1">javascript</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Project-3.png" alt="Project 3">
+                <div class="portfolio-layer">
+                    <h4>Parol Controller</h4>
+                    <p>We have a lantern project, and I created a site controller for the lanterns to activate their lights. When you click on the layers, the lighting of the lantern will change.</p>
+                    <ul>
+                        <li class="p-1">Php</li>
+                        <li class="p-3">Mysql</li>
+                        <li class="p-2">Html</li>
+                        <li class="p-3">Css</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Project-4.png" alt="Project 4">
+                <div class="portfolio-layer">
+                    <h4>Website Clone</h4>
+                    <p>This is the very first thing I did when I was still practicing html csss javascript but I only used html css there. It's just a clone of my website</p>
+                    <ul>
+                        <li class="p-3">Html</li>
+                        <li class="p-2">Css</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Project-5.png" alt="Project 5">
+                <div class="portfolio-layer">
+                    <h4>Smart Phone Ecommerce</h4>
+                    <p>I did that when I knew a little bit about the basics of coding like html css javascript I tried to do that so that I could make an ecommerce website like application apps and stores</p>
+                    <ul>
+                        <li class="p-1">Php</li>
+                        <li class="p-3">javascript</li>
+                        <li class="p-2">Mysql</li>
+                        <li class="p-3">Html</li>
+                        <li class="p-3">CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" name="fullName" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 Kim Galvez | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
